@@ -5,7 +5,6 @@ import os
 
 
 app = Flask(__name__)
-app.secret_key = "dev"
 
 
 @app.route("/")
